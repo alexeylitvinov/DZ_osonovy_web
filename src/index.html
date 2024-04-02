@@ -259,90 +259,148 @@
     <div class="b-example-divider"></div>
 
     <div class="container">
-        <header>
-            <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
-                <h1 class="display-4 fw-normal text-body-emphasis">Главная</h1>
-                <p class="fs-5 text-body-secondary">Вы находитесь на сайте, предназначенном для продажи товаров</p>
+        <div class="overflow-auto" style="height: 100%;">
+            <header>
+                <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+                    <h1 class="display-4 fw-normal text-body-emphasis">Главная</h1>
+                    <p class="fs-5 text-body-secondary">Вы находитесь на сайте, предназначенном для продажи товаров</p>
+                </div>
+            </header>
+            <div class="container">
+                <main class="row">
+                    <div class="row text-center">
+                        <div class="col-4">
+                            <div class="card mb-4 rounded-3 shadow-sm">
+                                <div class="card-header py-3">
+                                    <h4 class="my-0 fw-normal">Товар 1</h4>
+                                </div>
+                                <div class="card-body">
+                                    <h2 class="card-title pricing-card-title">$100</h2>
+                                    <p>
+                                        10 users included,
+                                        2 GB of storage,
+                                        Email support,
+                                        Help center access
+                                    </p>
+                                    <button type="button" class="w-100 btn btn-lg btn-success">Купить</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3"></div>
+                        <div class="col-5">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label">Имя</label>
+                                    <input type="text" class="form-control" id="exampleInputText1"
+                                           placeholder="Введите имя">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                           placeholder="Введите email">
+                                </div>
+                                <button type="submit" class="btn btn-primary">Отправить</button>
+                            </form>
+                        </div>
+                    </div>
+                </main>
             </div>
-        </header>
-        <div class="container">
-            <main class="row">
-                <div class="row text-center">
-                    <div class="col-4">
-                        <div class="card mb-4 rounded-3 shadow-sm">
-                            <div class="card-header py-3">
-                                <h4 class="my-0 fw-normal">Товар 1</h4>
+            <div class="container">
+                <div class="=row mt-1">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">FAQ</h5>
+                            <p class="d-inline-flex gap-1">
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseExample1" aria-expanded="false"
+                                        aria-controls="collapseExample1">
+                                    Как купить?
+                                </button>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseExample2" aria-expanded="false"
+                                        aria-controls="collapseExample2">
+                                    Как доставить?
+                                </button>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseExample3" aria-expanded="false"
+                                        aria-controls="collapseExample3">
+                                    Какая гарантия?
+                                </button>
+                            </p>
+                            <div class="collapse" id="collapseExample1">
+                                <div class="card card-body">
+                                    Здесь информация о покупке товара
+                                </div>
                             </div>
-                            <div class="card-body">
-                                <h2 class="card-title pricing-card-title">$100</h2>
-                                <p>
-                                    10 users included,
-                                    2 GB of storage,
-                                    Email support,
-                                    Help center access
-                                </p>
-                                <button type="button" class="w-100 btn btn-lg btn-success">Купить</button>
+                            <div class="collapse" id="collapseExample2">
+                                <div class="card card-body">
+                                    Здесь информация о доставке товара
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-3"></div>
-                    <div class="col-5">
-                        <form>
-                            <div class="mb-3">
-                                <label class="form-label">Имя</label>
-                                <input type="text" class="form-control" id="exampleInputText1"
-                                       placeholder="Введите имя">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1"
-                                       placeholder="Введите email">
-                            </div>
-                            <button type="submit" class="btn btn-primary">Отправить</button>
-                        </form>
-                    </div>
-                </div>
-            </main>
-        </div>
-        <div class="container">
-            <div class="=row mt-1">
-                <div class="card text-center">
-                    <div class="card-body">
-                        <h5 class="card-title">FAQ</h5>
-                        <p class="d-inline-flex gap-1">
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseExample1" aria-expanded="false"
-                                    aria-controls="collapseExample1">
-                                Как купить?
-                            </button>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseExample2" aria-expanded="false"
-                                    aria-controls="collapseExample2">
-                                Как доставить?
-                            </button>
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseExample3" aria-expanded="false"
-                                    aria-controls="collapseExample3">
-                                Какая гарантия?
-                            </button>
-                        </p>
-                        <div class="collapse" id="collapseExample1">
-                            <div class="card card-body">
-                                Здесь информация о покупке товара
-                            </div>
-                        </div>
-                        <div class="collapse" id="collapseExample2">
-                            <div class="card card-body">
-                                Здесь информация о доставке товара
-                            </div>
-                        </div>
-                        <div class="collapse" id="collapseExample3">
-                            <div class="card card-body">
-                                Здесь информация о гарантии на товар
+                            <div class="collapse" id="collapseExample3">
+                                <div class="card card-body">
+                                    Здесь информация о гарантии на товар
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="=row mt-3">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Номер</th>
+                        <th scope="col">Название товара</th>
+                        <th scope="col">Цена за штуку</th>
+                        <th scope="col">Количество</th>
+                        <th scope="col">Итоговая сумма</th>
+                        <th scope="col">Статус заказа</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>KitchenAid 5KSM156</td>
+                        <td>58399</td>
+                        <td>2</td>
+                        <td>116798</td>
+                        <td class="table-warning">обработка</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>GeForce GT 1030</td>
+                        <td>5717.8</td>
+                        <td>4</td>
+                        <td>22871.2</td>
+                        <td class="table-success">обработан</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>HP ENVY 13-ad000</td>
+                        <td>54890</td>
+                        <td>3</td>
+                        <td>164670</td>
+                        <td class="table-success">обработан</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Dewal 03-401</td>
+                        <td>2632.3</td>
+                        <td>5</td>
+                        <td>13161.5</td>
+                        <td class="table-primary">новый</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">5</th>
+                        <td>Gastrorag CM-717</td>
+                        <td>32854.8</td>
+                        <td>3</td>
+                        <td>98564.4</td>
+                        <td class="table-danger">отмена</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
